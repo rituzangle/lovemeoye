@@ -1,0 +1,119 @@
+{
+  "expo": {
+    "name": "Loves Me, Loves Me Not",
+    "slug": "loves-me-loves-me-not",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "lovesme",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "description": "A beautiful, family-friendly daisy petal plucking game perfect for children and families. Experience the timeless tradition with smooth animations, realistic physics, and delightful interactions. Safe, educational, and fun for all ages.",
+    "keywords": [
+      "family", "children", "kids", "daisy", "game", "petals", "educational", "fun", "safe", 
+      "relaxing", "nature", "flowers", "counting", "decision", "nostalgic", "entertainment",
+      "offline", "beautiful", "animations", "physics", "interactive", "learning", "loves me", "tradition"
+    ],
+    "privacy": "public",
+    "platforms": ["ios", "android", "web"],
+    "category": "education",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lovesme.daisygame",
+      "buildNumber": "1",
+      "infoPlist": {
+        "CFBundleDisplayName": "Loves Me, Loves Me Not",
+        "CFBundleShortVersionString": "1.0.0",
+        "CFBundleVersion": "1",
+        "NSCameraUsageDescription": "This app does not use the camera.",
+        "NSMicrophoneUsageDescription": "This app does not use the microphone.",
+        "NSLocationWhenInUseUsageDescription": "This app does not use location services.",
+        "NSPhotoLibraryUsageDescription": "This app does not access your photo library."
+      },
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "splash": {
+        "image": "./assets/images/icon.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#FFE4E6"
+      },
+      "appStoreUrl": "https://apps.apple.com/app/loves-me-loves-me-not/id[APP_ID]"
+    },
+    "android": {
+      "package": "com.lovesme.daisygame",
+      "versionCode": 1,
+      "compileSdkVersion": 34,
+      "targetSdkVersion": 34,
+      "minSdkVersion": 23,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/icon.png",
+        "backgroundColor": "#FFE4E6"
+      },
+      "permissions": [],
+      "blockedPermissions": [
+        "android.permission.CAMERA",
+        "android.permission.RECORD_AUDIO",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE",
+        "android.permission.READ_CONTACTS",
+        "android.permission.WRITE_CONTACTS"
+      ],
+      "splash": {
+        "image": "./assets/images/icon.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#FFE4E6"
+      },
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.lovesme.daisygame",
+      "googleServicesFile": ""
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png",
+      "name": "Loves Me, Loves Me Not - Family-Friendly Daisy Game",
+      "shortName": "Loves Me",
+      "description": "A safe, educational daisy petal plucking game perfect for children and families. Experience the timeless tradition in a child-appropriate way!",
+      "themeColor": "#E11D48",
+      "backgroundColor": "#FFE4E6"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "enableProguardInReleaseBuilds": true,
+            "enableShrinkResourcesInReleaseBuilds": true,
+            "proguardVersion": "7.2.2"
+          },
+          "ios": {
+            "deploymentTarget": "15.1"
+          }
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "your-project-id-here"
+      },
+      "router": {
+        "origin": false
+      }
+    },
+    "owner": "your-expo-username",
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/your-project-id-here"
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    }
+  }
+}
