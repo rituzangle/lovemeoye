@@ -1,9 +1,6 @@
-# Built With
-[![Built with Bolt](https://img.shields.io/badge/Built%20with-Bolt-blueviolet)](https://bolt.new)
-
 # Loves Me, Loves Me Not 🌼
 
-A beautiful, family-friendly daisy petal plucking game built with React Native and Expo. Experience the timeless tradition of discovering if "they love me" or "they love me not" with smooth animations, delightful interactions, and child-appropriate presentation perfect for families.
+A beautiful, family-friendly daisy petal plucking game. Experience the timeless tradition of discovering if "they love me" or "they love me not" with smooth animations, delightful interactions, and child-appropriate presentation perfect for families.
 
 ## 🌟 Family-Friendly Features
 
@@ -47,7 +44,7 @@ A beautiful, family-friendly daisy petal plucking game built with React Native a
 5. **Discover Your Answer**: The final petal reveals the outcome
 6. **Try Again**: Every daisy is different - keep playing and enjoying!
 
-## 🏗️ Technical Excellence
+## Technical Excellence
 
 ### Framework Stack
 - **Expo SDK**: 53.0.0 (Latest stable)
@@ -69,7 +66,7 @@ A beautiful, family-friendly daisy petal plucking game built with React Native a
 - **Smooth Interactions**: Immediate visual feedback for all actions
 - **Scalable Design**: Optimized for 8-35 petals with perfect distribution
 
-## 📱 Platform Support
+## Platform Support
 
 ### Mobile Devices
 - **iOS**: 15.1+ (Optimized for latest iOS features)
@@ -81,7 +78,7 @@ A beautiful, family-friendly daisy petal plucking game built with React Native a
 - **Mobile Web**: Responsive design for phone browsers
 - **Accessibility**: Screen reader compatible
 
-## 🎨 Beautiful Design
+## Beautiful Design
 
 ### Visual Excellence
 - **Romantic Colors**: Soft pink to golden gradient backgrounds
@@ -98,7 +95,7 @@ A beautiful, family-friendly daisy petal plucking game built with React Native a
 - **Smooth Transitions**: Professional-grade 60fps animations
 - **Optimized Performance**: Efficient rendering for up to 35 petals
 
-## 🚀 Getting Started
+## Getting Started
 
 ### For Families
 1. **Download**: Get the app from your device's app store
@@ -273,5 +270,3 @@ Our commitment to child safety, educational value, cultural sensitivity, and ext
 **Copyright and all rights reserved: Ritu Sangha. (ritusbooks.com)**
 
 *Experience the magic of the classic "Loves Me, Loves Me Not" tradition reimagined for the digital age with complete family safety and extended educational value! 🌼*# rock-paper-scissors
-# loves_me_i18n
-# loves_me_i18n
