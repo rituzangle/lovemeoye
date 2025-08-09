@@ -39,9 +39,16 @@
         "releaseStatus": "draft"
       },
       "ios": {
-        "appleId": "your-apple-id@example.com",
+        "appleId": "ritusangha@yahoo.com",
         "ascAppId": "your-app-store-connect-app-id",
-        "appleTeamId": "your-apple-team-id"
+        "appleTeamId": "Ritu Sangha",
+        "appName": "Loves Me, Loves Me Not",
+        "appVersion": "1.0.0",
+        "appBuild": "1",
+        "appDescription": "A beautiful daisy petal plucking game. Experience the timeless romantic tradition with smooth animations and delightful interactions.",
+        "appKeywords": [
+          "game", "romance", "love", "daisy", "animation", "mobile-app", "cross-platform"
+        ]
       }
     }
   }

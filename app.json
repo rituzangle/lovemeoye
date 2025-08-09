@@ -1,30 +1,23 @@
 {
   "expo": {
     "name": "Loves Me, Loves Me Not",
-    "slug": "loves-me-loves-me-not",
-    "version": "1.0.0",
+    "slug": "loves-me",
+    "version": "1.7.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "scheme": "lovesme",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "description": "A beautiful, family-friendly daisy petal plucking game perfect for children and families. Experience the timeless tradition with smooth animations, realistic physics, and delightful interactions. Safe, educational, and fun for all ages.",
-    "keywords": [
-      "family", "children", "kids", "daisy", "game", "petals", "educational", "fun", "safe", 
-      "relaxing", "nature", "flowers", "counting", "decision", "nostalgic", "entertainment",
-      "offline", "beautiful", "animations", "physics", "interactive", "learning", "loves me", "tradition"
-    ],
-    "privacy": "public",
     "platforms": ["ios", "android", "web"],
-    "category": "education",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.lovesme.daisygame",
-      "buildNumber": "1",
+      "bundleIdentifier": "com.lovesme.oye",
+      "buildNumber": "1.7",
       "infoPlist": {
         "CFBundleDisplayName": "Loves Me, Loves Me Not",
-        "CFBundleShortVersionString": "1.0.0",
-        "CFBundleVersion": "1",
+        "CFBundleShortVersionString": "1.7.0",
+        "CFBundleVersion": "1.7.0",
         "NSCameraUsageDescription": "This app does not use the camera.",
         "NSMicrophoneUsageDescription": "This app does not use the microphone.",
         "NSLocationWhenInUseUsageDescription": "This app does not use location services.",
@@ -38,14 +31,11 @@
         "resizeMode": "contain",
         "backgroundColor": "#FFE4E6"
       },
-      "appStoreUrl": "https://apps.apple.com/app/loves-me-loves-me-not/id[APP_ID]"
+      "appStoreUrl": "https://apps.apple.com/app/lovesmeoye/id6449813501"
     },
     "android": {
       "package": "com.lovesme.daisygame",
       "versionCode": 1,
-      "compileSdkVersion": 34,
-      "targetSdkVersion": 34,
-      "minSdkVersion": 23,
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/icon.png",
         "backgroundColor": "#FFE4E6"
@@ -66,14 +56,14 @@
         "resizeMode": "contain",
         "backgroundColor": "#FFE4E6"
       },
-      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.lovesme.daisygame",
+      "playStoreUrl": "https://play.google.com/store/apps/details?id=com.lovesmeoye",
       "googleServicesFile": ""
     },
     "web": {
       "bundler": "metro",
       "output": "static",
       "favicon": "./assets/images/favicon.png",
-      "name": "Loves Me, Loves Me Not - Family-Friendly Daisy Game",
+      "name": "Loves Me, Loves Me Not - Family-Friendly Game",
       "shortName": "Loves Me",
       "description": "A safe, educational daisy petal plucking game perfect for children and families. Experience the timeless tradition in a child-appropriate way!",
       "themeColor": "#E11D48",
@@ -101,16 +91,16 @@
     },
     "extra": {
       "eas": {
-        "projectId": "your-project-id-here"
+        "projectId": "proj-oye"
       },
       "router": {
         "origin": false
       }
     },
-    "owner": "your-expo-username",
+    "owner": "fullan-di-bahar",
     "updates": {
       "fallbackToCacheTimeout": 0,
-      "url": "https://u.expo.dev/your-project-id-here"
+      "url": "https://u.expo.dev/proj-oye"
     },
     "runtimeVersion": {
       "policy": "sdkVersion"

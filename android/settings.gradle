@@ -22,18 +22,16 @@ plugins {
   id("expo-autolinking-settings")
 }
 
-/*
-extensions.configure(com.facebook.react.settings.ReactSettingsExtension) { ex ->
+extensions.configure(com.facebook.react.ReactSettingsExtension) { ex ->
   if (System.getenv('EXPO_USE_COMMUNITY_AUTOLINKING') == '1') {
     ex.autolinkLibrariesFromCommand()
   } else {
     ex.autolinkLibrariesFromCommand(expoAutolinking.rnConfigCommand)
   }
 }
-*/
 expoAutolinking.useExpoModules()
 
-rootProject.name = 'LovesMeLovesMeNot'
+rootProject.name = 'Loves Me, Loves Me Not'
 
 expoAutolinking.useExpoVersionCatalog()
 

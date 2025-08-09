@@ -71,17 +71,6 @@ export default function RootLayout() {
     }
   }, [fontsLoaded, fontError]);
 
-  // Handle Bolt badge press - opens bolt.new in browser/new tab
-  const handleBoltBadgePress = () => {
-    if (Platform.OS === 'web') {
-      // On web, open in new tab
-      window.open('https://bolt.new', '_blank');
-    } else {
-      // On mobile, use Linking API
-      Linking.openURL('https://bolt.new');
-    }
-  };
-
   // Keep splash screen visible while fonts are loading
   // This prevents flash of unstyled text (FOUT) and maintains professional appearance
   if (!fontsLoaded && !fontError) {
@@ -96,12 +85,6 @@ export default function RootLayout() {
       console.log('✅ All fonts loaded successfully');
     }
   }
-
-  // Calculate dynamic bottom position for Bolt badge
-  // This ensures it's always visible above tab bar and game content
-  const badgeBottomPosition = Platform.OS === 'web' 
-    ? 20 // Fixed position for web
-    : (insets.bottom + 110); // Dynamic position for mobile: safe area + tab bar + content clearance
 
   return (
     <View style={styles.container}>
@@ -134,21 +117,6 @@ export default function RootLayout() {
         - Consistent across all screens
       */}
       <StatusBar style="light" backgroundColor="#BE185D" translucent={false} />
-      
-      {/* Bolt Badge for Hackathon Compliance - Positioned with Safe Area Awareness */}
-      <TouchableOpacity 
-        style={[styles.boltBadge, { bottom: badgeBottomPosition }]}
-        onPress={handleBoltBadgePress}
-        activeOpacity={0.8}
-        accessibilityLabel="Built with Bolt - Visit bolt.new"
-        accessibilityRole="button"
-      >
-        <Image
-          source={{ uri: 'https://img.shields.io/badge/Built%20with-Bolt-blueviolet?style=for-the-badge&logo=lightning' }}
-          style={styles.boltBadgeImage}
-          resizeMode="contain"
-        />
-      </TouchableOpacity>
     </View>
   );
 }
@@ -156,25 +124,5 @@ export default function RootLayout() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-  },
-  boltBadge: {
-    position: 'absolute',
-    right: 20,
-    zIndex: 999,
-    backgroundColor: 'rgba(255, 255, 255, 0.9)',
-    borderRadius: 8,
-    padding: 4,
-    shadowColor: '#000',
-    shadowOffset: {
-      width: 0,
-      height: 2,
-    },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 5, // Android shadow
-  },
-  boltBadgeImage: {
-    width: Platform.OS === 'web' ? 120 : 100, // Slightly smaller on mobile
-    height: Platform.OS === 'web' ? 28 : 24,  // Maintain aspect ratio
   },
 });

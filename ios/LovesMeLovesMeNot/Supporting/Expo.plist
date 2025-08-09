@@ -11,6 +11,6 @@
     <key>EXUpdatesRuntimeVersion</key>
     <string>exposdk:53.0.0</string>
     <key>EXUpdatesURL</key>
-    <string>https://u.expo.dev/your-project-id-here</string>
+    <string>https://u.expo.dev/proj-oye</string>
   </dict>
 </plist>

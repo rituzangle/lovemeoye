@@ -13,9 +13,9 @@
 import type { Language } from '@/hooks/useLanguage';
 const encouragingMessages: Record<Language, string[]> = {
   en: [
-    "Try another daisy! 🌼",
+    "Let's try another daisy! 🌼",
     "Every flower tells a different story! 🌸",
-    "Plenty of fish... (I mean) daisies in the garden! 🌻",
+    "Plenty of fish... (I mean) daisies in this garden! 🌻",
     "We shall not care for those who don't! 🌺",
     "Time for a fresh daisy! 🌷",
     "Other daisies are waiting. Shall we... 🌼",
@@ -24,6 +24,7 @@ const encouragingMessages: Record<Language, string[]> = {
     "Try again with a new daisy! 🌻",
     "The garden has many more flowers! 🌺",
     "Sometimes flowers need more time! 🌼",
+    "Forget that daisy, let's try another! 🌸",
     "A new daisy awaits its fate! 🌸",
   ],
   fr: [
@@ -80,6 +81,7 @@ const encouragingMessages: Record<Language, string[]> = {
     "ਇੱਕ ਨਵੇਂ ਫੁੱਲ ਨਾਲ ਮੁੜ ਕੋਸ਼ਿਸ਼ ਕਰੋ! 🌻",
     "ਬਾਗ ਵਿੱਚ ਹੋਰ ਵੀ ਬਹੁਤ ਫੁੱਲ ਹਨ! 🌺",
     "ਕਈ ਵਾਰੀ ਫੁੱਲਾਂ ਨੂੰ ਹੋਰ ਸਮਾਂ ਚਾਹੀਦਾ ਹੈ! 🌼",
+    "ਭੁੱਲ ਜਾਓ ਉਸ ਫੁੱਲ ਨੂੰ, ਇੱਕ ਹੋਰ ਚੁਣੀਏ! 🌸",
     "ਇੱਕ ਨਵਾਂ ਫੁੱਲ ਆਪਣੀ ਕਿਸਮਤ ਦੀ ਉਡੀਕ ਕਰ ਰਿਹਾ ਹੈ! 🌸",
   ],
   de: [
