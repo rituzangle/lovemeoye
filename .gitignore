@@ -1,6 +1,8 @@
 # my scripts - like gitter and gitwiz
 git*.sh
 *.txt
+watcher-clear-error.sh
+
 # eas has my apple id and other sensitive info
 # so ignore eas.json
 eas.json
@@ -102,5 +104,28 @@ yarn-error.*
 
 # typescript
 *.tsbuildinfo
+# Build artifacts
+build/
+dist/
+android/app/build/
+ios/build/
+ios/DerivedData/
 
-# @end expo-cli
+# Android specific
+.gradle
+.idea/workspace.xml
+.idea/libraries/
+local.properties
+.externalNativeBuild
+
+# iOS specific
+xcuserdata/
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+project.xcworkspace
+!default.pbxuser # Often contains developer-specific settings that might be useful
+
+# macOS specific
+.DS_Store
+
